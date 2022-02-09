@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "My first Node.js server application using Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Vinicius de Castro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
